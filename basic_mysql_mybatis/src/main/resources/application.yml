@@ -1,0 +1,28 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /mybatis
+
+#\u5F00\u53D1\u914D\u7F6E
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # \u4F7F\u7528druid\u6570\u636E\u6E90
+    type: com.alibaba.druid.pool.DruidDataSource
+
+#mybatis
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: com.feng.model.dataobject
+
+#pagehelper\u5206\u9875\u63D2\u4EF6
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: log
+server:
+  servlet:
+    context-path: /log
+  port: 8004
+
+logging:
+  level:
+    root: debug
+  #  path: D:/logs
+  file: D:/logs/hello.log

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot_T_Stack.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot_T_Stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/basic.iml" filepath="$PROJECT_DIR$/basic/basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic_log/basic_log.iml" filepath="$PROJECT_DIR$/basic_log/basic_log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic_mysql_jpa/basic_mysql_jpa.iml" filepath="$PROJECT_DIR$/basic_mysql_jpa/basic_mysql_jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic_mysql_mybatis/basic_mysql_mybatis.iml" filepath="$PROJECT_DIR$/basic_mysql_mybatis/basic_mysql_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic_redis/basic_redis.iml" filepath="$PROJECT_DIR$/basic_redis/basic_redis.iml" />
+    </modules>
+  </component>
+</project>

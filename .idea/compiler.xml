@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="basic" />
+        <module name="basic_log" />
+        <module name="basic_mysql_jpa" />
+        <module name="basic_mysql_mybatis" />
+        <module name="basic_redis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="basic" target="1.8" />
+      <module name="basic_log" target="1.8" />
+      <module name="basic_mysql_jpa" target="1.8" />
+      <module name="basic_mysql_mybatis" target="1.8" />
+      <module name="basic_redis" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,5 +1,6 @@
 package com.feng.controller;
 
+import com.feng.service.HelloService;
 import com.feng.util.RedisUtil;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,11 +17,16 @@ import javax.annotation.Resource;
 public class HelloController {
 
     @Resource
-    private RedisUtil<String,String> redisUtil;
+    private RedisUtil<String, String> redisUtil;
+
+    @Resource
+    private HelloService helloService;
 
     @RequestMapping("/hello")
-    public String sayHello(){
-        return redisUtil.getValue("hello");
+    public String sayHello() {
+
+        return String.valueOf(helloService.getObjectFromRedis());
+
     }
 
 }
